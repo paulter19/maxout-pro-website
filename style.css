@@ -9,7 +9,8 @@
     scroll-margin-top: 92.83px;
 }
 :root{
-    --cta: #ff6b81;
+/*     --cta: #ff6b81;*/
+    --cta: #005073;
     --light-white: #f9f9f9;
     --white: #fff;
     --gray: #888;
@@ -2157,7 +2158,7 @@ footer .newsletter{
 
 
     .pricing__grid{
-        grid-template-columns: repeat(4, 1fr);
+        /* grid-template-columns: repeat(4, 1fr); */
         gap: 1.5rem;
     }
 
