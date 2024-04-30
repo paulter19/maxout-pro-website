@@ -350,6 +350,7 @@ header{
     text-align: center;
     gap: 2.5rem;
     padding: 7.5rem 1.5rem 3rem 1.5rem;
+    align-items: center;
 }
 .header__text h1{
     color: var(--white);
@@ -371,6 +372,11 @@ header{
 }
 .header__img img{
     transition-delay: .5s;
+}
+.header__img__custom{
+    @media screen and (max-width: 900px) {
+        margin-top: 150px; /* Adjust this value as needed */
+      }
 }
 .header__text-link.fadeFromLeft{
     transition-delay: .7s;
