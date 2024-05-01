@@ -375,6 +375,8 @@ header{
     transition-delay: .5s;
 }
 .header__img__custom{
+    margin-bottom: 50px;
+
     @media screen and (max-width: 900px) {
         margin-top: 150px; /* Adjust this value as needed */
       }

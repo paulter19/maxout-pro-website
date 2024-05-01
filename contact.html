@@ -105,6 +105,7 @@
                 <input type="email" placeholder="Your Email" name="email">
                 <input type="number" placeholder="Your Phone" name="phone">
                 <textarea type="textarea" placeholder="Your Message" name="message"></textarea>
+                <input type="hidden" id="contact_id" name="contact_id">
                 <button name="submit" type="submit">Submit Message</button>
             </form>
         </div>
@@ -184,5 +185,14 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        // Generate a random identifier
+        function generateRandomId() {
+            return Math.random().toString(36).substr(2, 10); // Generates a random string of 10 characters
+        }
+    
+        // Set the value of the contact_id input field to the generated random identifier
+        document.getElementById('contact_id').value = generateRandomId();
+    </script>
 </body>
 </html>
