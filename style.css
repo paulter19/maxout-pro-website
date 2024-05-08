@@ -156,6 +156,7 @@ body.scroll-down nav{
 .nav__logo{
     width: 70px;
     display: inline-flex;
+    text-decoration: none;
 }
 body.scroll-down .nav__logo-white{
     display: none;
