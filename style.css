@@ -2135,7 +2135,7 @@ footer .newsletter{
 
 
     .overview,.pricing{
-        padding-top: 6rem;
+        padding-top: 2rem;
     }
     .overview-flex{
         flex-direction: row;
@@ -2298,7 +2298,7 @@ footer .newsletter{
         display: inline-block;
     }
     .support{
-        background: url(./images/contact-bg.jpg) no-repeat;
+        /* background: url(./images/contact-bg.jpg) no-repeat; */
         background-size: 100% 100%;
         flex-direction: row;
         align-items: center;
@@ -2307,7 +2307,7 @@ footer .newsletter{
     .support__text{
         width: 60%;
         background: var(--cta);
-        padding: 8rem 8rem 8rem 3rem;
+        padding: 6rem 3rem 3rem 3rem;
     }
     .support__text h2{
         font-size: 1.875rem;
@@ -2543,4 +2543,8 @@ footer .newsletter{
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
     transform: translateY(0);
+}
+.price-link{
+    text-decoration: none;
+    color: white;
 }
